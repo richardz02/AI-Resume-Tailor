@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  max-width: 600px;
+  max-height: 600px;
+  padding: 5px;
+}
+
+.submit {
+  border: 1px solid green;
+  color: green;
+  max-width: 80px;
+}
+
+.clear {
+  border: 1px solid red;
+  color: red;
+  max-width: 80px;
+}
+
+:hover .btn {
+  cursor: pointer;
+}
